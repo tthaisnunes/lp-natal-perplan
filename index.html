@@ -1,0 +1,333 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" />
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+	<title>Campanha de natal - Perplan</title>
+
+	<style>	
+		header{background:url(images/bg-header.png);min-height:600px;background-size:140%}.content-title-1{background:rgba(184,174,73,.8);margin:200px 0 0 30%;padding:10px 10px 20px}.content-title-1 h1{color:#fff;font-size:60px;margin:10px 10px 0;text-align:center}.content-title-1 img{width:80%;margin:0 auto;display:block}.content-title-2{background:rgba(41,105,77,.8);padding:23px 4% 10px;margin:40px 0 0 15%}.content-title-3,.content-title-4{background:rgba(41,112,106,.9);padding:0 2%;width:27%;float:right}.content-title-2 h2{color:#7afff1;margin-top:-42px}.content-title-2 span{color:#fff;font-size:22px;font-weight:400}.content-title-2 h2 span{color:#fff}.content-title-2 h2 strong{font-weight:400;font-size:72px}.content-title-3{margin:20px 0 0 36%}.content-title-3 h3{color:#fff;margin:10px;font-weight:400}.content-title-3 h3 strong{color:#7afff1;font-weight:400}.content-title-4{margin:20px 0 0 36%}.content-title-4 h3{color:#fff;margin:10px;font-weight:400}@media (min-width:768px){header{background:url(images/bg-header-desk.png);min-height:600px;background-size:cover}.content-title-1{width:24%;float:right;margin:60px 0 0 30%}.content-title-2{width:33%;float:right;margin:20px 0 0 15%}}
+	</style>
+	<!-- end style header -->
+</head>
+
+<body>
+	<header>
+		<div class="icon-toggle">
+			<img src="images/icon-03.svg" alt="">
+			<p>
+				Recolher
+			</p>
+		</div>
+		<div class="content-contato col-sm-6 col-xs-12 col-md-2">	
+			<div class="row">
+				<h2 class="col-md-12 col-sm-12 col-xs-12 text-center">
+					Fale com a gente
+				</h2>
+				<form action="" class="col-md-12 col-sm-12 col-xs-12 no-padding form-email" id="form-email" onsubmit="return sendFormAgende();">
+					<label for="" class="col-md-12 col-sm-12 col-xs-12">
+						Nome
+						<input type="text" placeholder="Seu nome aqui" name="name" class="col-md-12 col-sm-12 col-xs-12">
+					</label>
+
+					<label for="" class="col-md-12 col-sm-12 col-xs-12">
+						Email
+						<input type="mail" placeholder="Seu e-mail aqui" name="email" class="col-md-12 col-sm-12 col-xs-12">
+					</label>
+
+					<label for="" class="col-md-12 col-sm-12 col-xs-12">
+						Telefone
+						<input type="tel" placeholder="(11) 5555-5555" name="tel" class="col-md-12 col-sm-12 col-xs-12">
+					</label>
+					<label for="" class="col-md-12 col-sm-12 col-xs-12">
+						<input type="submit" value="Enviar">
+					</label>
+					<input type="hidden" name="action" value="saveAgenda">
+				</form>
+			</div>
+		</div>
+
+		<div class="container no-padding">
+			<div class="content-title-1">
+				<h1>Natal</h1>
+				<img src="images/logo-perplan.png" alt="">
+			</div>
+
+			<div class="content-title-2">
+				<span>Até</span>
+				<h2>
+					R$ <strong>150</strong> MIL <br>
+					<span>de descontos nos imóveis</span>
+				</h2>
+			</div>
+
+			<div class="content-title-3 hidden-sm hidden-xs">
+				<h3>Use seu <strong>FGTS</strong></h3>
+			</div>
+
+			<div class="content-title-4 hidden-sm hidden-xs">
+				<h3>Condições Especiais</h3>
+			</div>
+		</div>
+	</header>
+	<!-- end header -->
+
+
+	<div class="offers-content padding-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="col-md-3 col-sm-4 col-xs-4 no-padding-right">
+						<img src="images/icon-02.png" alt="">
+					</div>
+					<div class="col-md-8 col-sm-8 col-xs-8">
+						<h2>Escolha seu imóvel</h2>
+					</div>
+					<div class="col-md-9 col-md-offset-3 col-sm-8 col-xs-8">
+						<p>Em um de nossos empreendimentos</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<a href="http://www.perplan.com.br/imoveis/detalhes/Villa-Piemonte/53" target="blank">
+					<img src="images/img-item-01.jpg" alt="">
+				</a>				
+			</div>
+
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<a href="http://www.perplan.com.br/imoveis/detalhes/Residencial-Quinta-do-Monte-/52" target="blank">
+					<img src="images/img-item-02.jpg" alt="">
+				</a>				
+			</div>
+
+			<div class="col-md-4 col-sm-6 col-xs-6">
+				<a href="http://www.perplan.com.br/imoveis/detalhes/Upper-Ribeirao/43" target="blank">
+					<img src="images/img-item-03.jpg" alt="">
+				</a>				
+			</div>
+
+			<div class="col-md-4 col-sm-6 col-xs-6 col-md-offset-2">
+				<a href="http://www.perplan.com.br/imoveis/detalhes/Van-Der-Rohe/41" target="blank">
+					<img src="images/img-item-04.jpg" alt="">
+				</a>				
+			</div>
+
+			<div class="col-md-4 col-sm-6 col-xs-6 col-xs-offset-3 col-md-offset-0">
+				<a href="http://www.perplan.com.br/imoveis/detalhes/Condominio-Jardim-Sul-2/39" target="blank">
+					<img src="images/img-item-05.jpg" alt="">
+				</a>				
+			</div>
+		</div>
+	</div>
+	<!-- end .offers-content -->
+	
+	<div class="content-conditions">
+		<div class="container">
+			<ul>
+				<li>
+					<img src="images/icon-08.svg" alt="">
+					<span>
+						Condições Especiais
+					</span>
+				</li>
+				<li>
+					<img src="images/icon-06.svg" alt="">
+					<span class="subtitle">
+						Descontos						
+					</span>			
+					<strong class="yellow">de até 150 mil</strong>		
+				</li>
+				<li>
+					<img src="images/icon-07.svg" alt="">
+					<span class="yellow">
+						Use seu FGTS
+					</span>					
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- end .content-conditions -->
+
+	<div class="date-content col-md-6 col-md-offset-3">
+		<div class="col-md-12">
+			<div class="col-md-2 col-sm-4 col-xs-4 no-padding-right col-md-offset-1">
+				<img src="images/icon-11.png" alt="">
+			</div>
+			<div class="col-md-8 col-sm-8 col-xs-8">
+				<h2>Estamos te esperando! </h2>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<h3 class="col-xs-12 col-sm-12 col-md-12">
+				dia 10 de Dezembro <br>
+				das 9h às 18h
+			</h3>
+			<p class="col-md-12 col-sm-12 col-xs-12">
+				Espaço de Negócios Perplan <br>
+				Av. Wladimir Meirelles, 1465 <br>
+				Jd. Botânico  <br>
+				Ribeirão Preto - SP
+			</p>
+			<a href="https://maps.google.com/?q=Av Wladimir Meirelles, 1465" target="blank" class="col-md-12 col-sm-12 col-xs-12">
+				<button class="btn-default col-md-12 col-sm-12 col-xs-12"> Como Chegar</button>
+			</a>
+		</div>
+		<div class="col-md-6 hidden-xs hidden-sm">
+			<img src="images/img-endereco.jpg" alt="" class="img-endereco">
+		</div>
+	</div>
+	<!-- end .date-content -->
+
+	<div class="content-form no-padding-mobile col-md-12 col-sm-12 col-xs-12">
+		<div class="col-md-4 col-md-offset-4">
+			<div class="col-md-2 col-md-offset-2 col-sm-4 col-xs-4 no-padding-right">
+				<img src="images/icon-12.png" alt="">
+			</div>
+			<div class="col-md-8 col-sm-8 col-xs-8">
+				<h2>Entre em Contato</h2>
+			</div>
+
+			<form action="" class="col-md-12 col-sm-12 col-xs-12 no-padding form-email" id="form-email-modal" onsubmit="return sendFormAgende2();">
+				<label for="" class="col-md-12 col-sm-12 col-xs-12">
+					Nome
+					<input type="text" placeholder="Digite aqui o seu nome" name="name" class="no-padding col-md-12 col-sm-12 col-xs-12">
+				</label>
+
+				<label for="" class="col-md-12 col-sm-12 col-xs-12">
+					Email
+					<input type="mail" placeholder="Digite aqui o seu email" name="email" class="no-padding col-md-12 col-sm-12 col-xs-12">
+				</label>
+
+				<label for="" class="col-md-12 col-sm-12 col-xs-12">
+					Telefone
+					<input type="tel" placeholder="(DDD)+ Número" name="tel" class="no-padding col-md-12 col-sm-12 col-xs-12">
+				</label>
+
+				<label for="" class="col-md-12 col-sm-12 col-xs-12 submit">
+					<input type="submit" value="Enviar" class="btn-default col-md-12 col-sm-12 col-xs-12">
+				</label>
+
+				<input type="hidden" name="action" value="saveAgenda">
+			</form>
+
+			<p class="col-md-12 col-sm-12 col-xs-12">Se preferir, ligue para a gente.</p>
+
+			<div class="show-tel col-md-12 col-sm-12 col-xs-12">
+				<span class="tel-hidden">Ver telefone</span>
+				<span class="tel-visible">(16) 3604-0334</span>
+			</div>
+		</div>
+	</div>
+	<!-- end .offers-content -->	
+
+
+<!-- GA -->
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-83521853-6', 'auto');
+	ga('send', 'pageview');
+
+</script>
+
+<!-- Facebook -->
+<!-- Facebook Pixel Code -->
+<script>
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+			document,'script','https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '1772191029687615', {
+			em: 'insert_email_variable,'
+		});
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" style="display:none"
+		src="https://www.facebook.com/tr?id=1772191029687615&ev=PageView&noscript=1"
+		/>
+	</noscript>
+	<!-- DO NOT MODIFY -->
+	<!-- End Facebook Pixel Code -->
+
+	<!-- Código do Google para tag de remarketing -->
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 873652428;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+		<div style="display:inline;">
+			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/873652428/?guid=ON&amp;script=0"/>
+		</div>
+	</noscript>
+
+	<!-- Modal -->
+	<div class="modal fade modal-sucesso" id="modalsucesso" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content col-md-12 col-sm-12 col-xs-12">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<div class="content-img">
+						<img src="images/icon-modal-sucesso.svg" alt="">
+					</div>
+
+					<h4 class="modal-title" id="myModalLabel">Ok!</h4>
+				</div>
+				<div class="modal-body col-md-12 col-sm-12 col-xs-12">
+					<p class="text-center">
+						Suas informações foram enviadas <br> com sucesso. Aguarde o contato de <br> nossos representantes.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end modal -->
+
+	<!-- Modal -->
+	<div class="modal fade modal-sucesso" id="modalerro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content col-md-12 col-sm-12 col-xs-12">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<div class="content-img">
+						<img src="images/icon-modal-erro.svg" alt="">
+					</div>
+
+					<h4 class="modal-title" id="myModalLabel">Atenção</h4>
+				</div>
+				<div class="modal-body col-md-12 col-sm-12 col-xs-12">
+					<p class="text-center">
+						Ocorreu um erro durante o processamento
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end .modal -->
+
+	<!-- font core -->
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600" rel="stylesheet">
+
+	<!-- css core -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- js core -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>	
+	<script src="js/jquery.maskedinput.min.js" type="text/javascript" language="javascript"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
